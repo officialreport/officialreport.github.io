@@ -1,0 +1,83 @@
+body {
+    background-color: #050101;
+    color: khaki;
+    font-family: Helvetica;
+    text-align: center;
+  }
+  
+  h1{
+  font-family: 'army';
+  font-size: 50px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  }
+  
+  h3{
+  font-family: 'army';
+  font-size: 30px;
+  font-weight: 100;
+  letter-spacing: 1.5px;
+  }
+  
+  #warn{
+  font-size: inherit;
+  font-weight: inherit;
+  opacity: 0.2;
+  transition: 0.3s ease-in-out;
+  }
+  
+  #warn:hover{
+  opacity: 0.55;
+  transition: 0.3s ease-in-out;
+  }
+  
+  #cal{
+  background-image: url("/img/transcal.png");
+  background-size: cover;
+  height: 300px;
+  width: 353px;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  z-index: 999;
+  opacity: 0.05;
+  transition: 0.5s ease-in-out;
+  }
+  
+  #cal:hover{
+  opacity: 1;
+  transition: 0.3s ease-in-out;
+  }
+  
+  #dre{
+  background-image: url("/img/transdre.png");
+  background-size: cover;
+  height: 320px;
+  width: 256px;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  z-index: 999;
+  opacity: 0.04;
+  transition: 0.5s ease-in-out;
+  }
+  
+  #dre:hover{
+  opacity: 1;
+  transition: 0.3s ease-in-out;
+  }
+  
+  ::-moz-selection { /* Code for Firefox */
+    color: khaki;
+    background: #323321;
+  }
+  
+  ::selection {
+    color: khaki;
+    background: #323321;
+  }
+  
+  @font-face{
+  font-family: 'army';
+  src: url("/ARMY.ttf");
+  }

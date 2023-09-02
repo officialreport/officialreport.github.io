@@ -1,0 +1,46 @@
+
+body {
+    background-color: #cbce99;
+    color: #050101;
+    font-family: Helvetica;
+    text-align: center;
+    width: 700px;
+    padding: 10px 20px;
+}
+
+h1 {
+    margin: 0px;
+}
+
+h3 {
+    font-size: inherit;
+    font-weight: inherit;
+    margin: 15px 0px;
+    margin-left: 75px;
+    text-align: left;
+}
+
+h4 {
+    font-size: inherit;
+    font-weight: bold;
+    margin: 15px 0px;
+    margin-left: 50px;
+    text-align: left;
+}
+
+h5 {
+    text-align: center;
+    font-size: inherit;
+    font-weight: inherit;
+    margin: 15px 0px;
+}
+
+p {
+    text-align: left;
+    padding: 0px 30px;
+    line-height: 1.3em;
+}
+
+hr {
+    margin: 25px 0px;
+}
