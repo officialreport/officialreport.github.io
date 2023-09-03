@@ -52,3 +52,8 @@ p {
 hr {
     margin: 25px 0px;
 }
+
+figure {
+    margin: 0;
+    width: 100%;
+}
