@@ -1,0 +1,221 @@
+@font-face{
+    font-family : 'aeroblade';
+    src : url("https://anthracitaria.neocities.org/font/aeroblade.ttf");
+    }
+    @font-face{
+    font-family : 'funkhouse';
+    src : url("https://anthracitaria.neocities.org/font/funkhous.ttf");
+    }
+    @font-face{
+    font-family : 'gothik steel';
+    src : url("https://anthracitaria.neocities.org/font/gothiksteel.ttf");
+    }
+    
+    *{
+    padding : 0;
+    margin : 0;
+    border : 0;
+    }
+    body{
+    background-image : url("https://anthracitaria.neocities.org/img/core/swirl.jpg");
+    background-size : cover;
+    background-position : center center;
+    background-repeat : none;
+    overflow : hidden;
+    }
+    .grid{
+    display : block;
+    width : 700px;
+    height : 99vh;
+    overflow : hidden;
+    margin : auto;
+    margin-top : 0px;
+    background-color : rgba(255,255,255,1);
+    border : 2px solid #fff;
+    border-top : 0px;
+    border-bottom : 0px;
+    padding : 5px;
+    overflow-y : scroll;
+    overflow-x : hidden;
+    box-shadow: 10px 0px 10px rgba(255,255,255,1), 20px 0px 20px rgba(255,255,255,0.5), -10px 0px 10px rgba(255,255,255,1), -20px 0px 20px rgba(255,255,255,0.5);
+    }
+    .grid img{
+    width : 100%;
+    }
+    .fifty{
+    width : 50%;
+    }
+    .fifty img{
+    width : 50%;
+    }
+    .leftColumn{
+    background-color : rgba(255,255,255,1);
+    float : left;
+    clear : none;
+    height : 646px;
+    width : 240px;
+    border : 2px solid #000;
+    border-right : 1px solid #000;
+    border-radius : 10px 0px 0px 10px;
+    padding : 5px;
+    }
+    .topBanner{
+    background-color : rgba(255,255,255,1);
+    float : left;
+    clear : none;
+    height : 38px;
+    width : 735px;
+    border : 2px solid #000;
+    border-left : 0px solid #000;
+    border-bottom : 0px solid #000;
+    border-radius : 0px 10px 0px 0px;
+    padding : 5px;
+    }
+    .bottomBanner{
+    background-color : rgba(255,255,255,1);
+    float : left;
+    clear : none;
+    height : 607px;
+    width : 745px;
+    border : 2px solid #000;
+    border-left : 0px solid #000;
+    border-top : 1px solid #000;
+    border-radius : 0px 0px 10px 0px;
+    overflow : hidden;
+    }
+    .bbInside{
+    width : 98.6%;
+    height : 100%;
+    overflow : scroll;
+    background-color : #fff;
+    padding : 5px;
+    }
+    .icon{
+    background-image : url("https://anthracitaria.neocities.org/img/sparklevamp.png");
+    background-position: center center;
+    background-size : cover;
+    width : 100%;
+    height : 180px;
+    border-radius : 8px;
+    box-shadow : inset 0px 0px 2px #fff,inset 0px 0px 5px #fff,inset 0px 0px 10px #fff,inset 0px 0px 20px #fff;
+    transition : ease-in-out 0.3s;
+    }
+    .icon:hover{
+    filter : blur(0.7px);
+    transform: scale(1.02);
+    transition : ease-in-out 0.3s;
+    }
+    .border{
+    float : left;
+    width : 49px;
+    height : 1036px;
+    background-image : url("https://anthracitaria.neocities.org/");
+    }
+    .border2{
+    float : left;
+    width : 49px;
+    height : 1038px;
+    background-image : url("https://anthracitaria.neocities.org/");
+    background-repeat : none;
+    margin-top : -825px;
+    }
+    .bottomBanner img{
+    float : left;
+    margin-right : 5px;
+    margin-bottom : 5px;
+    height : 26.8%;
+    }
+    
+    h1{
+    text-align : center;
+    font-family : 'aeroblade';
+    font-size : 18px;
+    }
+    p{
+    margin-top : 10px;
+    }
+    
+    @keyframes glow {
+    0% {
+    text-shadow: 0 0 7px rgba(0,0,0,0.6);
+    }
+     
+    50% {
+    text-shadow: none;
+    }
+     
+    100% {
+    text-shadow: 0 0 7px rgba(0,0,0,0.6);
+    }
+    }
+     
+    @-webkit-keyframes glow {
+    0% {
+    text-shadow: 0 0 7px rgba(0,0,0,0.6);
+    }
+     
+    50% {
+    text-shadow: 0 0 0;
+    }
+     
+    100% {
+    text-shadow: 0 0 7px rgba(0,0,0,0.6);
+    }
+    }
+     
+    #glow {
+    font-family : 'aeroblade';
+    font-size : 18px;
+    -webkit-animation: glow 2.0s linear infinite;
+    -moz-animation: glow 2.0s linear infinite;
+    -ms-animation: glow 2.0s linear infinite;
+    -o-animation: glow 2.0s linear infinite;
+    animation: glow 2.0s linear infinite;
+    text-align : center;
+    }
+    
+    ul{
+    list-style: inside;
+    }
+    a{
+    color : #617a79;
+    font-style : italic;
+    text-decoration : none;
+    transition : ease-in-out 0.2s;
+    }
+    a:hover{
+    color : #90a69c;
+    transition : ease-in-out 0.2s;
+    filter : blur(0.5px);
+    font-size : 17px;
+    }
+    body img{
+    transition : ease-in-out 0.3s;
+    }
+    /*body img:hover{
+    filter : blur(0.7px);
+    transform: scale(1.02);
+    transition : ease-in-out 0.3s;
+    }*/
+    
+    /* Firefox */
+      * {
+        scrollbar-width: auto;
+        scrollbar-color: #000 transparent;
+      }
+    
+      /* Chrome, Edge, and Safari */
+      *::-webkit-scrollbar {
+        width: 12px;
+      }
+    
+      *::-webkit-scrollbar-track {
+        background: transparent;
+        border-left : 2px solid #000;
+      }
+    
+      *::-webkit-scrollbar-thumb {
+        background-color: #000;
+        border-radius: 10px;
+        border: 0px;
+      }
